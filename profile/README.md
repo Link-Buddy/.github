@@ -54,7 +54,8 @@
 |:-:|:-:|
 |summer<br/>[@yl9517](https://github.com/yl9517)|YuJin<br/>[@yjink12](https://github.com/yjink12)|
 
-### 이슈사항
+
+## ⭐이슈사항
 - [[Spring boot] Spring Security 3.x.x + JWT ](https://www.notion.so/Spring-boot-Spring-Security-3-x-x-JWT-5485f360e1e24726a018125e72a8b33e?pvs=21)
 - [[Spring boot] OncePerRequestFilter와 Filter의 차이](https://www.notion.so/Spring-boot-OncePerRequestFilter-Filter-2664db6691cb46e8803a30c91988229d?pvs=21)
 - [[Spring boot] Ouath2](https://www.notion.so/Spring-boot-Ouath2-3ded56be98494a9b84aa725c1ee5a13f?pvs=21)
@@ -62,11 +63,16 @@
 - [[241019] SQL문 조건 위치에 따른 문제 해결](https://www.notion.so/241019-SQL-1240e2a0ccba8016a55bd0f64ed7a793?pvs=21)
 
 
+---
+
+
 ## 스토리보드
 <div style="display: flex; gap: 40px; justify-content: center;">
     <img alt="storyboard1" src="https://github.com/user-attachments/assets/fbea1616-235b-4e4e-8283-f2b891fa0a7b" style="width: 40%;">
     <img alt="storyboard2" src="https://github.com/user-attachments/assets/69e50089-db3f-4344-bc67-1b7d2455a36c" style="width: 45%;">
 </div>
+
+
 
 ## Frontend
 
@@ -110,27 +116,34 @@
    - 오늘의 링크 추가
      - 링크 추가일마다 링크 추가 도장 표시
     <p align="center">
-      <img width="40%" alt="main" src=https://github.com/user-attachments/assets/9c827da1-753a-41d9-8632-4feffe4abf56">
-      <img width="40%" alt="main" src="https://github.com/user-attachments/assets/1a097da6-f159-4c40-baea-fe95de663b9b">
+      <img width="40%" alt="main" src="https://github.com/user-attachments/assets/14584277-035b-4e3d-90ce-c59c98cbc947">
     </p>
   - 검색
     <p align="center">
       <img width="40%" alt="search" src="https://github.com/user-attachments/assets/a2f19045-495e-4cc3-967c-12671d614d23">
     </p>
 
-2. 로그인 & 회원가입
+2. 유저
    - 회원가입 → 로그인
      <p align="center">
       <img width="40%" alt="login" src="https://github.com/user-attachments/assets/fd6d6238-c31f-41e6-819b-4befb01d0356">
     </p>
    - 간편로그인 (구글, 네이버)
+    <p align="center">
+      <img width="40%" alt="social" src="https://github.com/user-attachments/assets/fb7ced33-1f7d-403f-bc55-682187b55a0f">
+    </p>
+
+   - 등록/즐겨찾기/최근본링크
+    <p align="center">
+      <img width="40%" alt="recently" src="https://github.com/user-attachments/assets/0d3a8765-5f31-4630-a0bc-4535c2bab112">
+      <img width="40%" alt="myinfo" src="https://github.com/user-attachments/assets/468aaf19-8660-4e97-92be-1af634ee1fee">
+    </p>
 
 3. 버디링크
    - 친구 초대
      <p align="center">
-      <img width="40%" alt="invite" src="https://github.com/user-attachments/assets/d6429016-db8b-431a-bb25-de479c6640c8">
+      <img width="40%" alt="invite2" src="https://github.com/user-attachments/assets/d6429016-db8b-431a-bb25-de479c6640c8">
     </p>
-   - 버디 추가
    - 버디 설정
      <div style="display: flex; gap: 40px; justify-content: center;">
       <img alt="buddy1" src="https://github.com/user-attachments/assets/d4aef135-b6a8-4033-8a83-fdcc8cfbb01b" style="width: 40%;">
@@ -138,13 +151,15 @@
     </div>
 
 4. 내 링크
-   - 링크 추가, 수정, 삭제
      <p align="center">
-      <img width="40%" alt="link_add" src="https://github.com/user-attachments/assets/894ba6fe-4aa7-4f7c-a870-509030d21f60)">
+      <img width="40%" alt="link_add" src="https://github.com/user-attachments/assets/894ba6fe-4aa7-4f7c-a870-509030d21f60">
+      <img width="40%" alt="link_add" src="https://github.com/user-attachments/assets/05b2af93-d53f-4a22-b702-46481b72e9c3">
     </p>
-   - 링크 즐겨찾기
-   - 링크 폴더 이동 가능
+   - 즐겨찾기
+      <img width="40%" alt="favorite" src="https://github.com/user-attachments/assets/9c827da1-753a-41d9-8632-4feffe4abf56">
+   - 폴더(카테고리) 
      <p align="center">
+      <img width="40%" alt="add_category" src="https://github.com/user-attachments/assets/b2dabd28-1639-40e7-b59c-7c693b556e12">
       <img width="40%" alt="link_move" src="https://github.com/user-attachments/assets/695a5b7b-f984-4544-a7f0-495ee7dd433c">
     </p>
 
