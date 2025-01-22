@@ -1,5 +1,3 @@
-<div style="background-color: #0d1117; color: #c9d1d9; padding: 20px; border-radius: 10px;">
-
 
 # Link-Buddy (링크 버디)
 <p align="center">
@@ -112,6 +110,7 @@
    - 오늘의 링크 추가
      - 링크 추가일마다 링크 추가 도장 표시
     <p align="center">
+      <img width="40%" alt="main" src=https://github.com/user-attachments/assets/9c827da1-753a-41d9-8632-4feffe4abf56">
       <img width="40%" alt="main" src="https://github.com/user-attachments/assets/1a097da6-f159-4c40-baea-fe95de663b9b">
     </p>
   - 검색
@@ -271,5 +270,3 @@ src/
 - 간편 로그인 (구글, 네이버)
   - Spring Security + JWT + Oauth2
 - 로그인 & 회원가입
-
-</div>
