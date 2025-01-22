@@ -124,12 +124,9 @@
     </p>
 
 2. 유저
-   - 회원가입 → 로그인
+   - 일반 회원가입 → 로그인 & 간편로그인 (구글, 네이버)
      <p align="center">
       <img width="40%" alt="login" src="https://github.com/user-attachments/assets/fd6d6238-c31f-41e6-819b-4befb01d0356">
-    </p>
-   - 간편로그인 (구글, 네이버)
-    <p align="center">
       <img width="40%" alt="social" src="https://github.com/user-attachments/assets/fb7ced33-1f7d-403f-bc55-682187b55a0f">
     </p>
 
