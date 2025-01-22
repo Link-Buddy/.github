@@ -25,6 +25,8 @@
    - [주요기능](#backend-주요기능)
    - [이슈사항](#이슈사항)
 
+---
+
 ## 프로젝트 소개
 링크 공유 플랫폼
 
@@ -58,8 +60,17 @@
 ## Frontend
 
 ### Frontend 사용기술
-- Framework/Language: React(v18.2.0), Typescript
-- UI: Ant Design (Antd), Tailwind CSS
+- Framework/Language
+
+![React](https://img.shields.io/badge/React-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Ant Design](https://img.shields.io/badge/Ant%20Design-%230170FE.svg?style=for-the-badge&logo=ant-design&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+- UI
+
+![Ant Design](https://img.shields.io/badge/Ant%20Design-%230170FE.svg?style=for-the-badge&logo=ant-design&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 ### Frontend 폴더구조
 ```bash
@@ -127,12 +138,96 @@
 
 ## Backend
 
-### Backend 사용기술
-- Framework/Language: Spring Boot, Java(v17.0.9)
-- DB관련: MariaDB, JPA, QueryDSL
-- Tool: DBeaver
+### Backend 사용 기술
+- Framework/Language
+
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-%236DB33F.svg?style=for-the-badge&logo=spring-boot&logoColor=white)
+![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+
+
+- DB & TOOL
+  
+![MariaDB](https://img.shields.io/badge/MariaDB-%23003545.svg?style=for-the-badge&logo=mariadb&logoColor=white)
+![JPA](https://img.shields.io/badge/JPA-%236DB33F.svg?style=for-the-badge&logo=hibernate&logoColor=white)
+![QueryDSL](https://img.shields.io/badge/QueryDSL-%23007ACC.svg?style=for-the-badge&logo=java&logoColor=white)
+![DBeaver](https://img.shields.io/badge/DBeaver-%230072BC.svg?style=for-the-badge&logo=dbeaver&logoColor=white)
 
 ### ERD
+
+
+<details>
+  <summary>SQL 테이블 생성 스크립트 보기/접기</summary>
+
+  ```sql
+  CREATE TABLE `User` (
+      `id`    INT NULL,
+      `email` VARCHAR(255) NOT NULL,
+      `name`  VARCHAR(255) NULL,
+      `password`  VARCHAR(255) NULL,
+      `social`    VARCHAR(255) NULL,
+      `회원상태`  INT NULL,
+      `image_url` VARCHAR(255) NULL,
+      `refreshToken`  VARCHAR(255) NULL,
+      `created_at`    TIMESTAMP NULL,
+      `deleted_at`    TIMESTAMP NULL,
+      `last_logged_at`    TIMESTAMP NULL
+  );
+
+  CREATE TABLE `Buddy` (
+      `id`    INT NULL,
+      `creator_id`    INT NULL,
+      `name`  VARCHAR(255) NULL,
+      `created_at`    TIMESTAMP NULL,
+      `updated_at`    TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP
+  );
+
+  CREATE TABLE `Link` (
+      `id`    INT NULL,
+      `user_id`   INT NULL,
+      `category_id`   BIGINT NOT NULL,
+      `name`  VARCHAR(255) NULL,
+      `description`   TEXT NULL,
+      `link_url`  VARCHAR(255) NULL,
+      `delete_tf` BOOLEAN NULL,
+      `created_at`    TIMESTAMP NULL,
+      `updated_at`    TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP
+  );
+
+  CREATE TABLE `BuddyUser` (
+      `id`    INT NULL,
+      `user_id`   INT NULL,
+      `buddy_id`  INT NULL,
+      `alert_tf`  BOOLEAN NULL,
+      `pin_tf`    BOOLEAN NULL
+  );
+
+  CREATE TABLE `Category` (
+      `id`    BIGINT NOT NULL,
+      `user_id`   INT NULL,
+      `buddy_id`  INT NULL,
+      `category_name` VARCHAR(255) NULL,
+      `share_type_cd` BIGINT NULL,
+      `delete_tf` BOOLEAN NULL,
+      `alert_tf`  BOOLEAN NULL,
+      `pin_tf`    BOOLEAN NULL,
+      `accept_tf` BOOLEAN NULL,
+      `accept_df` BOOLEAN NULL,
+      `created_at`    TIMESTAMP NULL,
+      `updated_at`    TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP
+  );
+
+  CREATE TABLE `Favorite` (
+      `d` INT NOT NULL,
+      `user_id`   INT NULL,
+      `link_id`   INT NULL,
+      `id2`   BIGINT NOT NULL,
+      `created_at`    TIMESTAMP NULL,
+      `Field` VARCHAR(255) NULL
+  );
+```
+</details> 
+
+
 <p align="center">
       <img width="80%" alt="erd" src="https://github.com/user-attachments/assets/b57262f8-05d0-4458-894e-3492ceb778a3">
     </p>
