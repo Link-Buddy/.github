@@ -118,6 +118,7 @@
     <p align="center">
       <img width="40%" alt="main" src="https://github.com/user-attachments/assets/14584277-035b-4e3d-90ce-c59c98cbc947">
     </p>
+    
   - 검색
     <p align="center">
       <img width="40%" alt="search" src="https://github.com/user-attachments/assets/a2f19045-495e-4cc3-967c-12671d614d23">
@@ -141,6 +142,7 @@
      <p align="center">
       <img width="40%" alt="invite2" src="https://github.com/user-attachments/assets/d6429016-db8b-431a-bb25-de479c6640c8">
     </p>
+    
    - 버디 설정
      <div style="display: flex; gap: 40px; justify-content: center;">
       <img alt="buddy1" src="https://github.com/user-attachments/assets/d4aef135-b6a8-4033-8a83-fdcc8cfbb01b" style="width: 40%;">
