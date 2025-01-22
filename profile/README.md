@@ -1,3 +1,6 @@
+<div style="background-color: #0d1117; color: #c9d1d9; padding: 20px; border-radius: 10px;">
+
+
 # Link-Buddy (링크 버디)
 <p align="center">
   <img width="30%" alt="logo_main" src="https://github.com/user-attachments/assets/93591328-14c9-4344-885c-8a4b1a71782c">
@@ -13,17 +16,18 @@
    - [프로젝트 목적](#프로젝트-목적)
    - [개발 기간](#개발-기간)
    - [팀원 구성](#팀원-구성)
-2. [스토리보드](#스토리보드)
-3. [Frontend](#frontend)
+2. [이슈사항](#이슈사항)
+3. [스토리보드](#스토리보드)
+4. [Frontend](#frontend)
    - [사용기술](#frontend-사용기술)
    - [폴더구조](#frontend-폴더구조)
    - [주요기능](#frontend-주요기능)
-4. [Backend](#backend)
+5. [Backend](#backend)
    - [사용기술](#backend-사용기술)
    - [ERD](#erd)
    - [폴더구조](#backend-폴더구조)
    - [주요기능](#backend-주요기능)
-   - [이슈사항](#이슈사항)
+
 
 ---
 
@@ -51,6 +55,14 @@
 |<img src="https://avatars.githubusercontent.com/u/80736033?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/82390580?v=4" width="150" height="150"/>|
 |:-:|:-:|
 |summer<br/>[@yl9517](https://github.com/yl9517)|YuJin<br/>[@yjink12](https://github.com/yjink12)|
+
+### 이슈사항
+- [[Spring boot] Spring Security 3.x.x + JWT ](https://www.notion.so/Spring-boot-Spring-Security-3-x-x-JWT-5485f360e1e24726a018125e72a8b33e?pvs=21)
+- [[Spring boot] OncePerRequestFilter와 Filter의 차이](https://www.notion.so/Spring-boot-OncePerRequestFilter-Filter-2664db6691cb46e8803a30c91988229d?pvs=21)
+- [[Spring boot] Ouath2](https://www.notion.so/Spring-boot-Ouath2-3ded56be98494a9b84aa725c1ee5a13f?pvs=21)
+- [[241102] Link Preview](https://www.notion.so/241102-Link-Preview-efe8bc029fb74ae6a3849333f47be8a7?pvs=21)
+- [[241019] SQL문 조건 위치에 따른 문제 해결](https://www.notion.so/241019-SQL-1240e2a0ccba8016a55bd0f64ed7a793?pvs=21)
+
 
 ## 스토리보드
 <div style="display: flex; gap: 40px; justify-content: center;">
@@ -260,9 +272,4 @@ src/
   - Spring Security + JWT + Oauth2
 - 로그인 & 회원가입
 
-### 이슈사항
-- [[Spring boot] Spring Security 3.x.x + JWT ](https://www.notion.so/Spring-boot-Spring-Security-3-x-x-JWT-5485f360e1e24726a018125e72a8b33e?pvs=21)
-- [[Spring boot] OncePerRequestFilter와 Filter의 차이](https://www.notion.so/Spring-boot-OncePerRequestFilter-Filter-2664db6691cb46e8803a30c91988229d?pvs=21)
-- [[Spring boot] Ouath2](https://www.notion.so/Spring-boot-Ouath2-3ded56be98494a9b84aa725c1ee5a13f?pvs=21)
-- [[241102] Link Preview](https://www.notion.so/241102-Link-Preview-efe8bc029fb74ae6a3849333f47be8a7?pvs=21)
-- [[241019] SQL문 조건 위치에 따른 문제 해결](https://www.notion.so/241019-SQL-1240e2a0ccba8016a55bd0f64ed7a793?pvs=21)
+</div>
