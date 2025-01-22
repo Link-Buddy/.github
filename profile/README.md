@@ -48,8 +48,9 @@
 - Frontend 작업 : 2024.06.22 ~ 2025.01.11
 
 ### 팀원 구성
-- https://github.com/yl9517
-- https://github.com/yjink12
+|<img src="https://avatars.githubusercontent.com/u/80736033?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/82390580?v=4" width="150" height="150"/>|
+|:-:|:-:|
+|summer<br/>[@yl9517](https://github.com/yl9517)|YuJin<br/>[@yjink12](https://github.com/yjink12)|
 
 ## 스토리보드
 <div style="display: flex; gap: 40px; justify-content: center;">
