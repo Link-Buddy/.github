@@ -148,17 +148,22 @@
     </div>
 
 4. 내 링크
+   - 링크
      <p align="center">
       <img width="40%" alt="link_add" src="https://github.com/user-attachments/assets/894ba6fe-4aa7-4f7c-a870-509030d21f60">
       <img width="40%" alt="link_add" src="https://github.com/user-attachments/assets/05b2af93-d53f-4a22-b702-46481b72e9c3">
     </p>
+    
    - 즐겨찾기
-      <img width="40%" alt="favorite" src="https://github.com/user-attachments/assets/9c827da1-753a-41d9-8632-4feffe4abf56">
+      <p align="center">
+        <img width="40%" alt="favorite" src="https://github.com/user-attachments/assets/9c827da1-753a-41d9-8632-4feffe4abf56">
+      </p>
    - 폴더(카테고리) 
      <p align="center">
       <img width="40%" alt="add_category" src="https://github.com/user-attachments/assets/b2dabd28-1639-40e7-b59c-7c693b556e12">
       <img width="40%" alt="link_move" src="https://github.com/user-attachments/assets/695a5b7b-f984-4544-a7f0-495ee7dd433c">
     </p>
+
 
 ## Backend
 
